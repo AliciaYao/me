@@ -1,0 +1,4 @@
+<svg version="1.1" fill="white" id="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" >
+                <polygon fill="none" points="28,25 28,39 41,32 "></polygon>
+                <path d="M32,0C14.3,0,0,14.3,0,32s14.3,32,32,32s32-14.3,32-32S49.7,0,32,0z M28,39V25l13,7L28,39z"></path>
+              </svg>
