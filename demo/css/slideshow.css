@@ -1,0 +1,387 @@
+/*This is used for Slideshows */
+
+/*For more documentation refer - 
+  http://kenwheeler.github.io/slick/
+*/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+    
+    display: block;
+    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    width:100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    /* display: block; */
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    
+    height: auto;
+    
+    border: 1px solid transparent;
+}
+
+
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('ajax-loader.gif') center center no-repeat;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    /* font-size: 112px; */
+    /* line-height: 1; */
+    
+    position: absolute;
+    content: '';
+    top: 50%;
+    
+    font-family: "Ionicons";
+    display: block;
+    
+    /* width: 20px; */
+    /* height: 20px; */
+    z-index: 5;
+    margin-top: -10px;
+    padding: 0;
+    
+    cursor: pointer;
+    
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 0.81;
+    
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 36px;
+    line-height: 1;
+    
+    opacity: .75;
+    color: rgb(255, 252, 252);
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: 24px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    font-family: 'ionicons';
+    content: "\f3d2";
+}
+[dir='rtl'] .slick-prev:before
+{
+    font-family: 'ionicons';
+    content: "\f3d2";
+}
+
+.slick-next
+{
+    right: 0px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    font-family: 'ionicons';
+    content: "\f3d3";
+}
+[dir='rtl'] .slick-next:before
+{
+    font-family: 'ionicons';
+    content: "\f3d3";
+}
+
+/* Dots */
+.slick-slider
+{
+    /* margin-bottom: 30px; */
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: 0;
+    
+    display: block;
+    
+    width: 100%;
+    padding: 0;
+    
+    list-style: none;
+    
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+    
+    display: inline-block;
+    
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    padding: 0;
+    
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    
+    display: block;
+    
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+    
+    cursor: pointer;
+    
+    color: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #FFF;
+}
+.slick-dots li.slick-active button {
+    background: rgba(255, 255, 255, 1);
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+.slideshow{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+ 
+ /*=========================================================
+ for dark slideshow controls
+ to use it just add dark-control to slidshow class
+ ===========================================================
+ */
+
+.dark-control .slick-dots li.slick-active button {
+    background: rgba(16, 16, 16, 0.8);
+}
+.dark-control .slick-dots li button{
+    border: 2px solid #161616!important;
+}
+.dark-control .slick-prev:before,
+.dark-control .slick-next:before
+{
+    opacity: .75;
+    color: rgb(16, 16, 16)!important;
+}
+.dark-control .slick-prev:hover:before,
+.dark-control .bg-white .slick-prev:focus:before,
+.dark-control .bg-white .slick-next:hover:before,
+.dark-control .bg-white .slick-next:focus:before
+{
+    color: #000!important;
+}
+ 
+ /*=========================================================
+ for hiding slideshow controls
+ to use it just add .hide-dots hide-arrows & no-controls to slidshow class
+ to hide respective controls.
+ .no-controls class will remove all controls ie arrows & dots as well
+ ===========================================================
+ */
+.hide-dots .slick-dots{
+    display: none!important;
+    opacity: 0;
+    visibility: hidden;
+}
+.hide-arrows .slick-prev,
+.hide-arrows .slick-next{
+    display: none!important;
+    opacity: 0;
+    visibility: hidden;
+}
+.no-controls .slick-dots,
+.no-controls .slick-prev,
+.no-controls  .slick-next{
+    display: none!important;
+    opacity: 0;
+    visibility: hidden;
+}
+@media all and (max-width: 767px) {
+  .xs-hide-arrows .slick-prev,
+  .xs-hide-arrows .slick-next{
+     display: none!important;
+     opacity: 0;
+      visibility: hidden;
+  }
+}

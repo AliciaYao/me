@@ -1,0 +1,168 @@
+/*
+demo.css
+for Demo content of the theme
+
+*/
+
+/*
+1) homepage(index)
+*/
+.home_bg-0{background-image:url('../img/3.jpg')}
+.home_bg-1{background-image:url('../img/preview/agency.jpg')}
+.home_bg-2{background-image:url('../img/preview/shop.jpg')}
+.home_bg-3{background-image:url('../img/preview/property.jpg')}
+.home_bg-4{background-image:url('../img/preview/food.jpg')}
+.home_bg-5{background-image:url('../img/preview/portfolio.jpg')}
+.home_bg-6{background-image:url('../img/preview/photography.jpg')}
+.home_bg-7{background-image:url('../img/preview/corporate.jpg')}
+.home_bg-8{background-image:url('../img/preview/commuter.jpg')}
+.home_bg-9{background-image:url('../img/preview/vivanta.jpg')}
+.home_bg-10{background-image:url('../img/preview/agency02.jpg')}
+.home_bg-11{background-image:url('../img/preview/wedding.jpg')}
+.home_bg-25{background-image:url('../img/preview/agency_new.jpg')}
+.home_bg-12{background-image: url('https://images.unsplash.com/photo-1454805825830-dddc40f4eade?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&w=650&fit=max&s=48984df1ea3834bb1ce9167ecf8bee96')}
+.aa{
+	    text-decoration: none;
+    border: 2px dashed #FEFEFE;
+    padding: 0px 11px;
+}
+.suck-up{
+      position: absolute;
+    bottom: 3rem;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    width: calc(100% - 30px);
+}
+
+#demo img.img-responsive {
+    transition: all 0.3s ease;
+}
+   
+#demo .col-md-4.text-center:hover img {
+    transform: translateY(-11px);
+}
+/*
+2) demo_agency
+*/
+.demo_agency-0{background-image: url('https://images.unsplash.com/photo-1456426531648-850ec2f5a462?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+
+.demo_agency-2{background-image:url('../img/bg50.jpg')}
+/*
+3)demo_restuarant
+*/
+.demo_restuarant-0{background-image: url('https://images.unsplash.com/photo-1449198063792-7d754d6f3c80?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_restuarant-1{background-image: url('../img/hero-restaurant.jpg')}
+.demo_restuarant-2{background-image:url('../img/foodiesfeed.com_choosing-from-menu.jpg')}
+.demo_restuarant-3{background-image:url('../img/kaboompics.com_Woman Preparing Christmas Table.jpg')}
+
+/*
+4) demo_commuter
+*/
+.demo_commuter-0{background-image:url('../img/shop/ducksinarow_cycling_bags_5.jpg')}
+.demo_commuter-1{background-image:url('../img/shop/ducksinarow_cycling_bags_11.jpg')}
+.demo_commuter-3{background-image:url('../img/pattern2.png')}
+/*
+5) demo_agency-2
+*/
+.demo_agency-2-0{background-image:url('https://images.unsplash.com/photo-1453486250080-eff794c98b6c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1efb1b2980f49aa4e724be3586142517')}
+.demo_agency-2-1{background-image:url('https://images.unsplash.com/photo-1453486211183-8bd248d7893a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2def98d5025fdb6794415dbd1a442cfa')}
+
+/*
+6) demo_corporate
+*/
+.demo_corporate-0{background-image: url('https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=70&w=1375');}
+.demo_corporate-1{background-image:url('https://images.unsplash.com/photo-1450265066820-10018d252f8d?ixlib=rb-0.3.5&q=60&fm=jpg&crop=entropy&w=900&fit=max&s=625614a2d228d017b099fd6fb6ee0628')}
+.demo_corporate-2{background-image:url('../img/bg55.jpg')}
+.demo_corporate-4{background-image:url('https://images.unsplash.com/photo-1447758902204-48010b87c24d?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=40&w=1375')}
+/*
+7) demo_shop
+*/
+.demo_shop-0{background-image: url('https://images.unsplash.com/photo-1445052693476-5134dfe40f70?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_shop-1{background-image: url('../img/shop_slider_01.jpg');}
+.demo_shop-2{background-image:url('https://images.unsplash.com/photo-1450297428000-5f0b50540da9?crop=entropy&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600')}
+.demo_shop-3{background-image:url('https://images.unsplash.com/photo-1450297085576-21d98821f1fb?crop=entropy&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=300')}
+.demo_shop-4{background-image:url('https://images.unsplash.com/photo-1445053148743-7fdbc0ab0e99?crop=entropy&fit=crop&fm=jpg&h=275&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=400')}
+.demo_shop-5{background-image:url('../img/shop-side-2.jpg')}
+.demo_shop-6{background-image:url('https://images.unsplash.com/photo-1445052617869-096db75b4820?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=798fdd1f9bb2e80f4a1ef72111c8efa8')}
+.demo_shop-7{background-image:url('../img/pattern2.png')}
+/*
+8) demo_vivanta
+*/
+.demo_vivanta-0{background-image:url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_vivanta-1{background-image:url('../img/bg42.jpg')}
+.demo_vivanta-3{background-image:url('../img/pattern2.png')}
+/*
+9) demo_photo
+*/
+.demo_photo-0{background-image:url('https://images.unsplash.com/photo-1454391129723-a11d68a3a263?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_photo-1{background-image:url('https://images.unsplash.com/photo-1454328911520-ccf83f1ef41d?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_photo-2{background-image:url('https://images.unsplash.com/photo-1454321717968-d243ade71663?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_photo-3{background-image:url('https://images.unsplash.com/photo-1454177643390-7f100d1bbeec?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+/*
+10) demo_showcase
+*/
+.demo_showcase-0{background-image:url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_showcase-1{background-image:url('https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_showcase-2{background-image:url('https://images.unsplash.com/photo-1454329030972-00583f5f051f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=ad87ce445a88598ba6bf0e44fef8daed');}
+.demo_showcase-3{background-image:url('https://images.unsplash.com/photo-1454177643390-7f100d1bbeec?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');}
+.demo_showcase-4{background-color: rgba(0,0,0,0.8);}
+/*
+11) demo_portfolio
+*/
+.demo_portfolio-0{background-image:url('https://images.unsplash.com/photo-1455503521443-c39d5b861bc4?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=60&w=1375')}
+/*
+12) demo_wedding
+*/
+
+.demo_wedding-0{background-image:url('../img/DTS_Photography_Movie6.jpg')}
+.demo_wedding-1{background-image:url('../img/DTS_Photography_Movie1.jpg')}
+.demo_wedding-2{background-image:url('https://images.unsplash.com/photo-1453372755486-254d0e724b38?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_wedding-3{background-image:url('../img/DTS_Photography_Movie7.jpg')}
+/*
+13) demo_journal
+*/
+.demo_journal-0{background-image:url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_journal-1{background-image:url('https://images.unsplash.com/photo-1445377460552-b8989ca80820?crop=entropy&fit=crop&fm=jpg&h=550&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=400')}
+.demo_journal-3{background-image:url('https://images.unsplash.com/photo-1445699269025-bcc2c8f3faee?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+/*
+14)demo_property
+*/
+.demo_property-0{background-image:url('../img/bg45.jpg');}
+.demo_property-1{background-image:url('../img/bg42.jpg')}
+.demo_property-2{background-image:url('../img/sidebg1.jpg')}
+.demo_property-3{background-image:url('https://images.unsplash.com/photo-1416424500327-a57ace7358b8?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375')}
+.demo_agency_new-1{	background-image: url('../img/15.jpg');}
+.demo_agency_new-2{	background-image: url('../img/14.jpg');}
+.demo_agency_new-3{	background-color: rgba(0, 0, 0, 0.0392157);}
+.demo_agency_new-4{	background-image:url('../img/20.jpg')}
+/*
+15) demo_quantum
+*/
+.demo-quantum-padding{
+    height: auto;
+    background-color: #F0F0EA;
+}
+.quantum-wrapper{
+    padding: 70px;
+}
+.demo-quantum-padding .masonry_item:not(.col-md-6){
+    height: 302px;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .quantum-wrapper{
+        padding:10px 5px;
+    }
+    .demo-quantum-padding .masonry_item:not(:first-child){
+        height: auto;
+    }
+    .demo-quantum-padding .masonry_item:first-child{
+        width: 100%
+    }
+}

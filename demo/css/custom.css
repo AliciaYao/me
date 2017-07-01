@@ -1,0 +1,17 @@
+/*================================================================
+    custom stylesheet (write your custom css code here)
+==================================================================*/
+/*for demo-showcase demo*/
+section.section-border{
+	
+    border-bottom: 1px solid rgba(0, 0, 0, 0.85);
+}
+
+/*remove this in your production used for demo grids*/
+.demo-show-grid [class^=col-] {
+    padding: 20px;
+    background-color: #eee;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
+}
