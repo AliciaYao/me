@@ -3359,6 +3359,7 @@ aside.blog-sidebar .recent-posts .post-info > * {
 .post .post-content {
     padding: 50px;
     position: relative;
+    height:400px;
 }
 
 .post .post-content .title {
